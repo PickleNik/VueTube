@@ -70,6 +70,8 @@ export default {
 .bottomNav {
   /* ios gesture nav */
   bottom: env(safe-area-inset-bottom) !important;
+  /* android fullscreened */
+  /* bottom: 27px !important; */
   box-shadow: none !important;
   height: 4rem !important;
   padding: 0 !important;

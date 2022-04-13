@@ -109,6 +109,8 @@ export default {
 .topNav {
   /* ios notch */
   top: env(safe-area-inset-top) !important;
+  /* android fullscreened */
+  /* top: 27px; */
   position: fixed;
   width: 100%;
 }

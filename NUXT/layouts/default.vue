@@ -1,5 +1,5 @@
 <template>
-  <v-app style="background: transparent !important">
+  <v-app style="background: transparent !important; backdrop-filter: blur(3px)">
     <topNavigation
       :search="search"
       :page="page"
@@ -9,7 +9,7 @@
       @scroll-to-top="$refs.pgscroll.scrollTop = 0"
     />
 
-    <div style="height: 100%; margin-top: 4rem">
+    <div style="height: 100%; margin-top: 4em">
       <div
         v-show="!search"
         class="scrollcontainer"
@@ -25,7 +25,7 @@
       <div
         v-show="search"
         class="scrollcontainer"
-        style="overflow: hidden; height: calc(100vh - 4rem)"
+        style="overflow: hidden; height: calc(100vh - 6rem)"
       >
         <div class="scroll-y" style="height: 100%">
           <div v-if="search" style="min-width: 180px">
@@ -60,7 +60,7 @@
 import { App as CapacitorApp } from "@capacitor/app";
 import { mapState } from "vuex";
 import constants from "~/plugins/constants";
-import { linkParser } from "~/plugins/utils"
+import { linkParser } from "~/plugins/utils";
 
 export default {
   data: () => ({
@@ -123,10 +123,12 @@ export default {
       //---   User Pastes Link, Direct Them To Video   ---//
       const isLink = linkParser(text);
       if (isLink) {
-        this.response = [{
-          text: `Watch video from ID: ${isLink}`,
-          id: isLink
-        }];
+        this.response = [
+          {
+            text: `Watch video from ID: ${isLink}`,
+            id: isLink,
+          },
+        ];
         return;
       }
       //---   End User Pastes Link, Direct Them To Video   ---//
@@ -139,9 +141,7 @@ export default {
     },
 
     youtubeSearch(item) {
-      const link = item.id
-        ? `/watch?v=${item.id}`
-        : `/search?q=${item[0]}`
+      const link = item.id ? `/watch?v=${item.id}` : `/search?q=${item[0]}`;
       this.$router.push(link);
       this.search = false;
     },
@@ -190,7 +190,9 @@ export default {
 }
 html,
 body {
-  background: var(--v-background-base);
+  background: url("https://images.unsplash.com/photo-1517284938313-7b578da60a59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1386&q=80")
+    50% 50%;
+  background-size: cover;
   overflow: hidden;
 }
 

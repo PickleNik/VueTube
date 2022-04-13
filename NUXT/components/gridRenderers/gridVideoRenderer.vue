@@ -1,6 +1,6 @@
 <template>
   <v-card
-    class="entry gridVideoRenderer background"
+    class="entry gridVideoRenderer transparent"
     :to="`/watch?v=${video.videoId}`"
     flat
   >
@@ -9,7 +9,7 @@
       class="thumbnail-container"
       :style="{
         borderRadius: `${$store.state.tweaks.roundTweak / 2}rem`,
-        margin: $store.state.tweaks.roundTweak > 0 ? '0 .5rem' : '0',
+        margin: $store.state.tweaks.roundTweak > 0 ? '0 1.5rem' : '0',
       }"
     >
       <v-img

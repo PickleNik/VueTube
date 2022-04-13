@@ -103,7 +103,7 @@
       <!-- ----------------------------------------------Mode Switch------------------------ -->
       <v-card
         flat
-        class="d-flex flex-row justify-between mx-8 mb-4 px-4 background rounded-lg"
+        class="d-flex flex-row justify-between mx-8 mb-4 px-4 bg1 rounded-lg"
         :class="$vuetify.theme.dark ? 'lighten-1' : 'darken-1'"
         @click="
           ($vuetify.theme.dark = !$vuetify.theme.dark),
@@ -215,6 +215,10 @@ export default {
 </script>
 
 <style>
+.bg1 {
+  backdrop-filter: blur(42px);
+  background: #ffffff22 !important;
+}
 .border-primary {
   border: 2px solid var(--v-primary-base) !important;
 }

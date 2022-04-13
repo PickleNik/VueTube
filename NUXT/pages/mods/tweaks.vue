@@ -2,7 +2,7 @@
   <div class="d-flex flex-column justify-end" style="min-height: 100%">
     <v-card
       flat
-      class="mb-4 background"
+      class="mb-4 transparent"
       style="
         transition-duration: 0.3s;
         transition-property: border-radius;
@@ -17,14 +17,14 @@
         v-for="item in list"
         :key="item"
         @click="list.pop(item)"
-        class="pa-4 mb-1 background text-center rounded-sm"
+        class="pa-4 mb-1 bg1 text-center rounded-sm"
         :class="$vuetify.theme.dark ? 'lighten-1' : 'darken-1'"
       >
         {{ item }}
       </div>
       <v-card-title
         v-ripple
-        class="pa-4 background primary--text text--lighten-2 rounded-sm"
+        class="pa-4 bg1 primary--text text--lighten-2 rounded-sm"
         :class="$vuetify.theme.dark ? 'lighten-1' : 'darken-1'"
         @click="list.push('x')"
       >
@@ -33,7 +33,7 @@
     </v-card>
     <v-card
       flat
-      class="px-6 background"
+      class="px-6 mb-4 bg1"
       style="transition-duration: 0.3s; transition-property: border-radius"
       :class="$vuetify.theme.dark ? 'lighten-1' : 'darken-1'"
       :style="{
@@ -71,6 +71,13 @@
     </v-card>
   </div>
 </template>
+
+<style>
+.bg1 {
+  backdrop-filter: blur(40px);
+  background: #ffffff22;
+}
+</style>
 
 <script>
 export default {

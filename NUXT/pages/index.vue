@@ -42,6 +42,8 @@ export default {
           this.$vuetify.theme.currentTheme.background,
           this.$vuetify.theme.dark
         );
+        // this.$vuetube.navigationBar.setTransparent();
+        // this.$vuetube.statusBar.setTransparent();
         resolve();
       }, 0)
     );
