@@ -1,5 +1,4 @@
 <p align="center">
-    <a href="https://vuetube.app/">
     <picture>
       <source 
         srcset="https://raw.githubusercontent.com/VueTubeApp/.github/main/readme_assets/dark/VueTube.svg"
@@ -11,7 +10,6 @@
         width="500"
        />
     </picture>
-  </a>
   </br>
   <details>
   <summary>Show Readme credits</summary>
@@ -81,7 +79,7 @@ Install
 
 <img src="./resources/Install.svg" alt="VueTube icon" height="100"/>
 
-To install the app, please visit [vuetube.app/install](https://www.vuetube.app/install) or check below all versions
+To install the app, check below all versions
 available:
 
 <details>
@@ -97,7 +95,7 @@ available:
 Android
 </h3>
 
-| <a href=https://nightly.link/VueTubeApp/VueTube/workflows/ci/main/android.zip><img id="im" width="200" src=./resources/getunstable.png></a> | <a href=https://github.com/VueTubeApp/VueTube/releases/tag/0.5><img id="im" width="200" src=./resources/getcanary.png></a> | <a href=https://vuetube.app/install><img id="im" width="200" src=./resources/getstable.png></a> |
+| <a href=https://nightly.link/VueTubeApp/VueTube/workflows/ci/main/android.zip><img id="im" width="200" src=./resources/getunstable.png></a> | <a href=https://github.com/VueTubeApp/VueTube/releases/tag/0.5><img id="im" width="200" src=./resources/getcanary.png></a> | <img id="im" width="200" src=./resources/getstable.png> |
 | ------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | Pretty unstable, but you get early access to new features.                                                                                  | Less bugs than unstable while having more features than stable.                                                              | Not available yet.                                                                              |
 
@@ -110,7 +108,7 @@ Android
 iOS
 </h3>
 
-| <a href=https://nightly.link/VueTubeApp/VueTube/workflows/ci/main/iOS.zip><img id="im" width="200" src=./resources/getunstable.png></a> | <a href=https://github.com/VueTubeApp/VueTube/releases/tag/0.3><img id="im" width="200" src=./resources/getcanary.png></a> | <a href=https://vuetube.app/install><img id="im" width="200" src=./resources/getstable.png></a> |
+| <a href=https://nightly.link/VueTubeApp/VueTube/workflows/ci/main/iOS.zip><img id="im" width="200" src=./resources/getunstable.png></a> | <a href=https://github.com/VueTubeApp/VueTube/releases/tag/0.3><img id="im" width="200" src=./resources/getcanary.png></a> | <img id="im" width="200" src=./resources/getstable.png> |
 | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
 | Pretty unstable, but you get early access to new features.                                                                              | Less bugs than unstable while having more features than stable.                                                                                                                | Not available yet.                                                                              |
 
@@ -149,15 +147,15 @@ You can suggest your own feature by opening a feature request issue in this repo
 Screenshots
 </h2>
 
-[View them on our website](https://www.vuetube.app/info/screenshots) or click below to display them.
+[View them on our website](https://vuetube.pixkk.com/info/screenshots) or click below to display them.
 
 <details>
   <summary> 🖱️ Click to display screenshots </summary>
 <br />
 
-<img src="https://vuetube.app/wtch.png" width="400">
-<img src="https://vuetube.app/stng.png" width="400">
-<img src="https://vuetube.app/srch.png" width="400">
+<img src="https://vuetube.pixkk.com/wtch.png" width="400">
+<img src="https://vuetube.pixkk.com/stng.png" width="400">
+<img src="https://vuetube.pixkk.com/srch.png" width="400">
 
 </details>
 
@@ -173,7 +171,7 @@ Community
 We use several different platforms to connect with our community. You can actively participate in the development of
 VueTube or simply keep up to date with all the news joining these groups:
 
-- Discord server (https://vuetube.app/discord)
+- Discord server
 - Telegram group (https://t.me/vuetube)
 - Reddit page (https://www.reddit.com/r/vuetube)
 
@@ -230,11 +228,11 @@ users and contributors all around the world. You can join us and contribute to t
 ### Want to contribute?
 
 Thank you for being interested on contributing! Please read our website on how to do
-so: [vuetube.app/contributing](https://www.vuetube.app/contributing).
+so: https://vuetube.pixkk.com/contributing/.
 
 If you want to translate the app, [click here](/NUXT/plugins/languages) and read the instructions. If GitHub is hard or
 uncomfortable to you, you can also send the fields translated in a text file on
-our [Discord](https://vuetube.app/discord) and we will implement them. Don't worry!
+our Discord and we will implement them. Don't worry!
 
 <h2 align="left">
 <sub>
